@@ -23,7 +23,7 @@ return (
 const styles = StyleSheet.create({
 task: {
     flexDirection: 'row',
-    justifyContent: 'flex-start', // Adjusted for the delete button alignment
+    justifyContent: 'flex-start', 
     alignItems: 'center',
     backgroundColor: '#ffffff',
     padding: 10,
@@ -34,7 +34,7 @@ task: {
 },
 completedTask: {
     flexDirection: 'row',
-    justifyContent: 'flex-start', // Adjusted for the delete button alignment
+    justifyContent: 'flex-start',
     alignItems: 'center',
     backgroundColor: '#e0e0e0',
     padding: 10,
@@ -58,7 +58,7 @@ deleteButton: {
     paddingHorizontal: 10,
     paddingVertical: 5,
     borderRadius: 5,
-    marginLeft: 10, // Add margin to separate from task content
+    marginLeft: 10,
 },
 deleteButtonText: {
     color: '#ffffff',
